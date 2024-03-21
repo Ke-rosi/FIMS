@@ -1,0 +1,110 @@
+body
+{
+	font-family: Arial, sans-serif;
+	background-image:url("_Urban Drop_ The Aesthetics and Performance of Slammed Autos_.jpg") ;
+	background-size: cover;
+	 margin: 0;
+    padding: 0;
+}
+h2
+{
+	text-align: center;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+    background: linear-gradient(#a91ca9c5 , #b45ea4,#831734b1,#542463c8 );
+    width: 400px;
+    margin: 50px auto; 
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+.wrapper .input {
+    margin-bottom: 15px; 
+}
+
+.wrapper .input label {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+input[type="submit"] {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin: 5px auto; 
+    display: block; 
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+input[type="submit"] {
+    background-color:#365486;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #7FC7D9; 
+}
+input::placeholder{
+    font-size: 10px;
+}
+.navbar {
+    top:0;
+    width: 100%;
+    height: 10px;
+    margin: auto;
+    padding: 35px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#a91ca9c5 , #b45ea4,#831734b1,#542463c8);
+    border-radius: 20px;
+}
+
+.logo {
+	width: 80px;
+	height: 70px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Amita", serif ;
+    .amita-bold {
+        font-family: "Amita", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: rgb(57, 57, 217);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after {
+    width: 100%;
+
+}

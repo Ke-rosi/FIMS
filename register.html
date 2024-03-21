@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="register.css">
+    <script src="registerr.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="Cars home.html">Home</a></li>       
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="Maindashboard.html">Maindashboard</a></li>
+        </ul>
+    </div>
+<h2>Register</h2>
+<div class="wrapper">
+    <hr>
+    <p>Please enter your information</p>
+    <form onsubmit="return validateForm()">
+        
+<div class="input">
+            <label for="username">Username:</label>
+            <input type="text" placeholder="only alphabetic characters, no spaces or numbers" name="username" id="username"  required>
+        </div>
+        <div class="input">
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter Email" name="email" id="email" required>
+        </div>
+        <div class="input">
+            <label for="telephone">Telephone Number:</label>
+            <input type="tel" placeholder=" format: 0712345678" name="telephone" id="telephone" required>
+        </div>  
+
+       
+        <div class="input">
+            <label for="password">Password:</label>
+            <input type="password" placeholder="at least 8 characters including uppercase, lowercase, numbers, and special characters" name="password" id="password"required>
+        </div>
+
+        <div class="input">
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" placeholder="Confirm Password" name="confirm_password" id="confirm_password" required>
+        </div>
+
+        <input type="submit" name="Register" value="Register">
+    </form>
+</div>
+
+
+</body>
+</html>

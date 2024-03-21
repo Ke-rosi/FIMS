@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Supra.jpg');
+    background-position: center; /* Background image position */
+    background-repeat: no-repeat; /* Background image repeat behavior */
+    background-size: cover; 
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    top:0;
+    width: 100%;
+    height: 10px;
+    margin: auto;
+    padding: 35px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#a91ca9c5 , #b45ea4,#831734b1,#542463c8 );
+    border-radius: 40px;
+}
+
+.logo {
+	width: 90px;
+	height: 80px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #0F1035;
+    text-transform: uppercase;
+    font-family: "Amita", serif ;
+    .amita-bold {
+        font-family: "Amita", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background:white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after {
+    width: 100%;
+
+}
+.content {
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+    text-align: center;
+    color: #A0E9FF;
+    background:linear-gradient(#a91ca9c5 , #b45ea4,#831734b1,#542463c8 );;
+ }
+ 
+ .content h1 {
+     font-size: 30px;
+     margin-top: 80px;
+     border: #7FC7D9;
+     border-radius: 30px;
+     width: 100%;
+     position: center;
+ 
+ }
+ 
+ .content p {
+     margin: 20px auto;
+     font-weight: 100;
+     line-height: 25px;
+     border-radius: 30px;
+     width: 100%;
+     position: center;
+     padding: 0 40px;
+ }
+ .content h2 {
+     margin: 20px auto;
+     font-size: large;
+     font-weight: 50;
+     line-height: 25px;
+     border-radius: 30px;
+     width: 100%;
+     position: center;
+ }
+ button {
+     width: 200px;
+     padding: 15px;
+     text-align: center;
+     margin: 40px 10px;
+     border-radius: 25px;
+     font-weight: bold;
+     border: 2px solid rgb(26, 4, 52);
+     background: transparent;
+     color: white;
+     cursor: pointer;
+     position: relative;
+     overflow: hidden;
+ }
+ span {
+     background: linear-gradient(#985998 , #b94cb08c );
+     height: 100%;
+     width: 100%;
+     border-radius: 25px;
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     z-index: -1;
+     transition: 0.5s;
+ }
+ button:hover span {
+     width: 100%;
+ 
+ }
+ button:hover {
+     border: none;
+ }
