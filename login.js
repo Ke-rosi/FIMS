@@ -1,27 +1,24 @@
 function validateForm() {
-    let username = document.getElementById("username").value;
+    let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
-
+    
     // Regular expressions for validation
-    let usernameRe = /^[a-zA-Z]+$/; // Only alphabetic characters
-    let passwordRe = /^(?=.\d)(?=.[a-z])(?=.[A-Z])(?=.\W).{8,}$/; 
+    let emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    let passwordRe = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{8,}$/;
 
-
-    if (!nameRe.test(username)) {
-        alert("Username must contain only alphabetic characters");
+    if (!emailRe.test(email)) {
+        alert("Please enter a valid email address");
         return false;
     }
- 
+
     if (!passwordRe.test(password)) {
         alert("Password must be at least 8 characters including uppercase, lowercase, numbers, and special characters");
         return false;
     }
 
-    let successful = "You, " + username + ", have successfully registered.";
-
     
+    let successful = "You, " + username + ", have successfully Logged in.";
     alert(successful);
 
-    
     return true;
 }

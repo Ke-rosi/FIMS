@@ -1,11 +1,10 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('Supra.jpg');
-    background-position: center; /* Background image position */
-    background-repeat: no-repeat; /* Background image repeat behavior */
-    background-size: cover; 
+   background-image: url("dealership.jpg");
+   background-size: cover; 
 }
 .banner {
     width: 100%;
@@ -71,8 +70,8 @@ body {
     top: 50%;
     transform: translateY(-50%); 
     text-align: center;
-    color: #A0E9FF;
-    background:linear-gradient(#a91ca9c5 , #b45ea4,#831734b1,#542463c8 );;
+    color: whitesmoke;
+    
  }
  
  .content h1 {
@@ -118,7 +117,7 @@ body {
      overflow: hidden;
  }
  span {
-     background: linear-gradient(#985998 , #b94cb08c );
+     background: blue;
      height: 100%;
      width: 100%;
      border-radius: 25px;

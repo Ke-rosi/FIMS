@@ -1,0 +1,109 @@
+body {
+     font-family: pragati-narrow, san-serif;
+    background-image: url("dealership.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#SignUpform {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 400px;
+    margin: 70px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input {
+    margin-bottom: 15px;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px auto;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: lightblue;
+}
+
+input::placeholder {
+    font-size: 10px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0F1035;
+    text-transform: uppercase;
+    font-family: "Amita", serif ;
+    .amita-bold {
+        font-family: "Amita", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+}
+nav ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: rgb(57, 57, 217);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+navbar ul li:hover::after {
+    width: 100%;
+
+}

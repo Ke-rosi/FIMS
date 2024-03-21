@@ -1,10 +1,18 @@
+
+body{
+    font-family: pragati-narrow, san-serif;
+    background-image: url("dealership.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
 @import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@400;700&display=swap');
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: pragati-narrow, san-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: pragati-narrow, san-serif;
 }
 
 .banner {
@@ -24,13 +32,13 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(#a91ca9c5 , #b45ea4,#831734b1,#542463c8 );
-    border-radius: 20px;
+     background-color: rgba(0, 0, 0, 0.5);
+   
 }
 
 .logo {
-	width: 80px;
-	height: 70px;
+    width: 80px;
+    height: 70px;
 }
 
 .navbar ul li {
@@ -66,52 +74,52 @@
 
 }
 .wrapper { 
-	position: absolute;
-	width: 750px;
-	height: 450px;
-	background-color: transparent;
-	border: none;
+    position: absolute;
+    width: 750px;
+    height: 450px;
+    background-color: transparent;
+    border: none;
     top: 20%;
     background-position: center;
     margin-left:25%;
 }
 
 .wrapper .form-box {
-	position: absolute;
-	top: 0;
-	width: 50%;
-	height: 100%;
-	display: flex;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
     background-color: rgba(85, 130, 241, 0.311);
     display: flex;
-	flex-direction: column;
-	justify-content: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .form-box h2 {
-	font-size: 32px;
-	color: black;
-	text-align: center;
+    font-size: 32px;
+    color: black;
+    text-align: center;
 }
 .form-box .input-box {
-	position: relative;
-	width: 100%;
-	height: 50px;
-	margin: 25px 0;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 25px 0;
 }
 /*editing where the infornmation is put, the spaces*/
 .input-box input {
-	width: 70%; /*length of the label lines!!!!1*/
-	height: 100%;
-	background: transparent;
-	border: none;
-	outline: none;
-	border-bottom: 2px solid #fff;
-	padding-right: 23px;
-	font-size: 16px;
+    width: 70%; /*length of the label lines!!!!1*/
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    padding-right: 23px;
+    font-size: 16px;
     /*colour of the input*/
-	color: whitesmoke;
-	font-weight: 500;
+    color: whitesmoke;
+    font-weight: 500;
     transition:.5s;
 
 }
@@ -133,8 +141,8 @@
     /*the transtions on the labels*/
     .input-box input:focus~label,
     .input-box input:valid~label {
-	top: -5px;
-	color: #77e6bf;
+    top: -5px;
+    color: #77e6bf;
 }
 /*editing icons*/
     .input-box i {
@@ -150,7 +158,7 @@
     /*edits the icons next to the labels*/
     .input-box input:focus~i,
     .input-box input:invalid~i {
-	color: #0b16f2f7;
+    color: #0b16f2f7;
     }
     /*editing the login button*/
     .btn {
@@ -200,7 +208,7 @@
         top: 0;
         width: 50%;
         height: 100%;
-        background: linear-gradient(10deg, rgba(180, 17, 201, 0.925),rgba(81, 212, 241, 0.897), #b040ab);
+        background:rgba(85, 130, 241, 0.311);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -212,15 +220,15 @@
         padding: auto;
     }
     .info-text h2 {
-		font-family: pragati-narrow;
-		.pragati-narrow-bold {
-			font-family: "Pragati Narrow", sans-serif;
-			font-weight: 700;
-			font-style: normal;
-		  }
+        font-family: pragati-narrow;
+        .pragati-narrow-bold {
+            font-family: "Pragati Narrow", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+          }
         font-size: 30px;
-        color: 	black;
-        line-height: 1.3;	
+        color:  black;
+        line-height: 1.3;   
         text-transform: uppercase;
     }
     .info-text p {
