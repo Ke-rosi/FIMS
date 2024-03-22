@@ -1,0 +1,27 @@
+<?php
+// Include database connection code here if needed
+include 'connect.php';?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIMS - Home</title>
+    <link rel="style." type="text/css" href="">    <!-- Add your CSS links here -->
+</head>
+<body>
+    <header>
+        <!-- Add your header content here -->
+    </header>
+
+    <main>
+        <h1>Welcome to our Car Dealership!</h1>
+        <!-- Add featured vehicles or other content here -->
+    </main>
+
+    <footer>
+        <!-- Add your footer content here -->
+    </footer>
+</body>
+</html>

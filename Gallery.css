@@ -1,0 +1,85 @@
+body{ 
+    background-color:rgb(85, 85, 85);
+    background-size: cover;
+    background-position: center;
+  
+}
+
+.navbar {
+    top:0;
+    width: 100;
+    height: 10px;
+    margin: auto;
+    padding: 35px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.5) ;
+    border-radius: 20px;
+}
+.logo {
+	width: 80px;
+	height: 70px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #0F1035;
+    text-transform: uppercase;
+    font-family: "Amita", serif ;
+    .amita-bold {
+        font-family: "Amita", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: rgb(57, 57, 217);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after {
+    width: 100%;
+
+}
+.image-list {
+    display: flex;
+}
+
+.image-item {
+    margin-right: 5%;
+    margin-bottom: 80px; 
+    display: grid; /affects the caption placement/
+
+}
+
+.image-item img {
+    width: 250px; 
+    height: 250px;
+    border: 5px solid black;
+    border-radius: 10px; 
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    font-family: "Peralta", serif; /* Corrected */
+    font-weight: 700;
+    font-style: normal;
+}
